@@ -2,18 +2,18 @@
   "stats": {
     "suites": 3,
     "tests": 7,
-    "passes": 6,
+    "passes": 7,
     "pending": 0,
-    "failures": 1,
-    "start": "2025-03-21T14:36:46.080Z",
-    "end": "2025-03-21T14:36:46.509Z",
-    "duration": 429
+    "failures": 0,
+    "start": "2025-03-21T15:20:04.100Z",
+    "end": "2025-03-21T15:20:04.566Z",
+    "duration": 466
   },
   "tests": [
     {
       "title": "has a class of cat",
       "fullTitle": "cat has a class of cat",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -41,7 +41,7 @@
     {
       "title": "has a class of Bird",
       "fullTitle": "bird has a class of Bird",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -55,38 +55,18 @@
     {
       "title": "bird2.speak() returns 'Squawk!'",
       "fullTitle": "bird bird2.speak() returns 'Squawk!'",
-      "duration": 2,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'It\\'s me! Mable, the parrot!' to equal 'Mable says squawk!'",
-        "showDiff": true,
-        "actual": "It's me! Mable, the parrot!",
-        "expected": "Mable says squawk!",
-        "stack": "AssertionError: expected 'It\\'s me! Mable, the parrot!' to equal 'Mable says squawk!'\n    at Context.<anonymous> (test/indexTest.js:42:30)\n    at process.processImmediate (node:internal/timers:491:21)"
-      }
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "bird2.speak() returns 'Squawk!'",
-      "fullTitle": "bird bird2.speak() returns 'Squawk!'",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'It\\'s me! Mable, the parrot!' to equal 'Mable says squawk!'",
-        "showDiff": true,
-        "actual": "It's me! Mable, the parrot!",
-        "expected": "Mable says squawk!",
-        "stack": "AssertionError: expected 'It\\'s me! Mable, the parrot!' to equal 'Mable says squawk!'\n    at Context.<anonymous> (test/indexTest.js:42:30)\n    at process.processImmediate (node:internal/timers:491:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "has a class of cat",
       "fullTitle": "cat has a class of cat",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -114,13 +94,20 @@
     {
       "title": "has a class of Bird",
       "fullTitle": "bird has a class of Bird",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "bird.speak() returns 'It's me! [name], the parrot!'",
       "fullTitle": "bird bird.speak() returns 'It's me! [name], the parrot!'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "bird2.speak() returns 'Squawk!'",
+      "fullTitle": "bird bird2.speak() returns 'Squawk!'",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
